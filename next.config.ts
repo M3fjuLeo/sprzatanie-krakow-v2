@@ -1,8 +1,8 @@
-import type { NextConfig } from "next";
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   images: {
-    qualities: [25, 50, 75, 85, 90, 100],
+    unoptimized: true,
   },
 };
 

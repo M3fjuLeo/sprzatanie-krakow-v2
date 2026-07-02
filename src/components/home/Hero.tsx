@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="bg-white pt-20 pb-16 md:pt-32 md:pb-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-        <div className="text-center max-w-4xl mx-auto">
+        <div className="text-center max-w-6xl mx-auto">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-50 text-emerald-700 text-xs sm:text-sm font-medium mb-8 border border-emerald-100 transition-transform hover:scale-105 cursor-default">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
