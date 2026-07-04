@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function Pricing() {
   return (
-    <main className="pt-32 bg-white">
+    <main className="pt-10 bg-white">
       <PricingTables />
 
       <section

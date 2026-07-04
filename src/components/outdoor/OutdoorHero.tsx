@@ -3,7 +3,7 @@ import { ShieldCheck, Warehouse } from "lucide-react";
 
 const OutdoorHero = () => {
   return (
-    <section className="relative pt-32 pb-16 lg:pt-40 lg:pb-24 bg-white border-b border-zinc-100 overflow-hidden">
+    <section className="relative pt-16 pb-16 lg:pt-40 lg:pb-24 bg-white border-b border-zinc-100 overflow-hidden">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 rounded-full bg-zinc-50 px-3 py-1 text-[10px] uppercase tracking-wide font-medium text-zinc-500 mb-8 border border-zinc-200">

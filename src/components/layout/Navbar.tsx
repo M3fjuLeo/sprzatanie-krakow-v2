@@ -88,8 +88,7 @@ export default function Navbar() {
       </div>
 
       {isOpen && (
-        <div className="md:hidden bg-white border-t border-zinc-100 absolute w-full left-0 shadow-xl">
-          {/* Implementacja mobilnego menu z klasą cursor-pointer na Linkach i przyciskach */}
+        <div className="md:hidden bg-white border-t border-zinc-100 absolute w-full left-0 shadow-xl max-h-[calc(100vh-5rem)] overflow-y-auto">
           <div className="px-4 pt-4 pb-8 space-y-4 flex flex-col">
             <Link
               href="/"
@@ -98,7 +97,65 @@ export default function Navbar() {
             >
               Strona główna
             </Link>
-            {/* Pozostałe linki analogicznie */}
+
+            <div className="py-2 border-b border-zinc-50">
+              <span className="text-lg font-medium text-zinc-900 mb-2 block">
+                Usługi
+              </span>
+              <div className="flex flex-col pl-4 space-y-3">
+                <Link
+                  href="/biura"
+                  onClick={closeMenu}
+                  className="cursor-pointer text-zinc-600"
+                >
+                  Oferta B2B (Biura, Obiekty sportowe, Hotele)
+                </Link>
+                <Link
+                  href="/pranie-dywanow"
+                  onClick={closeMenu}
+                  className="cursor-pointer text-zinc-600"
+                >
+                  Pranie Dywanów i Tapicerki
+                </Link>
+                <Link
+                  href="/powierzchnie"
+                  onClick={closeMenu}
+                  className="cursor-pointer text-zinc-600"
+                >
+                  Czyszczenie Nawierzchni
+                </Link>
+              </div>
+            </div>
+
+            <Link
+              href="/referencje"
+              onClick={closeMenu}
+              className="cursor-pointer text-lg font-medium text-zinc-900 py-2 border-b border-zinc-50"
+            >
+              Referencje
+            </Link>
+            <Link
+              href="/cennik"
+              onClick={closeMenu}
+              className="cursor-pointer text-lg font-medium text-zinc-900 py-2 border-b border-zinc-50"
+            >
+              Cennik
+            </Link>
+            <Link
+              href="/kontakt"
+              onClick={closeMenu}
+              className="cursor-pointer text-lg font-medium text-zinc-900 py-2 border-b border-zinc-50"
+            >
+              Kontakt
+            </Link>
+
+            <Link
+              href="/kontakt"
+              onClick={closeMenu}
+              className="cursor-pointer mt-4 bg-zinc-900 text-white px-6 py-3 rounded-xl font-medium text-center flex items-center justify-center gap-2"
+            >
+              Zamów sprzątanie <ArrowRight size={16} />
+            </Link>
           </div>
         </div>
       )}

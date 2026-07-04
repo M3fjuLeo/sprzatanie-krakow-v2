@@ -3,7 +3,7 @@ import { Sparkles } from "lucide-react";
 
 const CarpetHero = () => {
   return (
-    <section className="relative pt-32 pb-16 md:pt-48 md:pb-24 overflow-hidden bg-white">
+    <section className="relative pt-16 pb-16 md:pt-48 md:pb-24 overflow-hidden bg-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-zinc-50/50 px-3 py-1 mb-8">

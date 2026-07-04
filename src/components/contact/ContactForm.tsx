@@ -196,7 +196,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="pt-32 pb-16 grow bg-zinc-50/50">
+    <section className="pt-16 pb-16 grow bg-zinc-50/50">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-24">
           <div className="flex flex-col justify-between">
