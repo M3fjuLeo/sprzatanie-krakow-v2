@@ -5,11 +5,13 @@ import OfficeHero from "@/components/office/OfficeHero";
 import OfficeSectors from "@/components/office/OfficeSectors";
 import OfficeSpecialist from "@/components/office/OfficeSpecialist";
 import OfficeProcess from "@/components/office/OfficeProcess";
+import OfficeHotels from "@/components/office/OfficeHotels";
+import OfficeQuote from "@/components/office/OfficeQuote";
 
 export const metadata: Metadata = {
-  title: "Sprzątanie Biur, Szkół i Obiektów Sportowych Kraków | Błysk",
+  title: "Sprzątanie Biur, Hoteli i Obiektów Kraków | Błysk",
   description:
-    "Specjalistyczne usługi dla firm i instytucji. Sprzątanie szkół, siłowni, basenów. Czyszczenie boisk poliuretanowych i kostki brukowej. Stałe umowy.",
+    "Specjalistyczne usługi dla firm, hoteli i instytucji. Sprzątanie biur, szkół, siłowni, basenów. Pranie wykładzin obiektowych. Czyszczenie boisk poliuretanowych i kostki brukowej. Stałe umowy.",
   alternates: {
     canonical: "https://sprzataniekrakow.pl/biura",
   },
@@ -31,8 +33,10 @@ export default function OfficeServices() {
       <main>
         <OfficeHero />
         <OfficeSectors />
+        <OfficeHotels />
         <OfficeSpecialist />
         <OfficeProcess />
+        <OfficeQuote />
       </main>
     </>
   );

@@ -126,13 +126,13 @@ export default function PrivacyPolicy() {
               </li>
               <li>
                 <strong>Twoja decyzja:</strong> Dopiero gdy klikniesz
-                "Akceptuję" na naszym banerze, narzędzia te uzyskują pełną
+                „Akceptuję” na naszym banerze, narzędzia te uzyskują pełną
                 funkcjonalność (np. zapisywanie preferencji, personalizacja
                 reklam).
               </li>
               <li>
                 <strong>Wycofanie zgody:</strong> Możesz w każdej chwili zmienić
-                zdanie, czyszcząc pliki cookie w przeglądarce.
+                zdanie, klikając „Ustawienia cookies” w stopce strony.
               </li>
             </ul>
           </Section>
@@ -148,6 +148,9 @@ export default function PrivacyPolicy() {
             </p>
             <ul className="list-disc pl-5 space-y-1 mt-2 marker:text-zinc-400">
               <li>Dostawcy usług hostingowych (Vercel Inc.).</li>
+              <li>
+                Dostawca usługi wysyłki formularza kontaktowego (EmailJS).
+              </li>
               <li>
                 Dostawcy usług analitycznych i reklamowych (Google Ireland
                 Ltd.).

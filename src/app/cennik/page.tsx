@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import PricingTables from "@/components/pricing/PricingTables";
 
 export const metadata: Metadata = {
-  title: "Cennik Usług | Błysk - Pranie Ekstrakcyjne i Obsługa Obiektów",
+  title: "Cennik Prania Dywanów i Sprzątania Kraków | Błysk",
   description:
     "Sprawdź ceny prania wykładzin biurowych, tapicerki meblowej oraz czyszczenia kostki brukowej i nawierzchni sportowych. Transparentny cennik usług B2B.",
   alternates: {

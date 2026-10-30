@@ -4,13 +4,15 @@ import Script from "next/script";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import CookieConsent from "@/components/CookieConsent";
+import PhoneClickTracker from "@/components/PhoneClickTracker";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sprzataniekrakow.pl"),
   title: {
-    template: "%s | Błysk",
+    template: "%s",
     default: "Błysk - Firma Sprzątająca Kraków",
   },
   description:
@@ -19,6 +21,7 @@ export const metadata: Metadata = {
     siteName: "Błysk - Sprzątanie Kraków",
     locale: "pl_PL",
     type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
@@ -67,6 +70,7 @@ export default function RootLayout({
         <main className="grow">{children}</main>
         <Footer />
         <CookieConsent />
+        <PhoneClickTracker />
       </body>
     </html>
   );

@@ -98,11 +98,11 @@ const OutdoorFAQ = () => {
               Zamów wycenę / Demo
             </Link>
             <a
-              href="tel:+48123456789"
+              href="tel:+48664917532"
               className="cursor-pointer inline-flex items-center justify-center rounded-lg bg-white border border-zinc-200 px-8 py-3 text-sm font-medium text-zinc-900 shadow-sm hover:bg-zinc-50 transition-colors"
             >
               <Phone className="mr-2" size={18} />
-              +48 123 456 789
+              +48 664 917 532
             </a>
           </div>
         </div>

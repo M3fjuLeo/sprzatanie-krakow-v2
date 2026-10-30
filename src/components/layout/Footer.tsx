@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Sparkles, Phone, Mail, MapPin } from "lucide-react";
+import CookieSettingsButton from "@/components/CookieSettingsButton";
 
 const Footer = () => {
   const linkClass =
@@ -73,6 +74,9 @@ const Footer = () => {
                 <Link href="/polityka-prywatnosci" className={linkClass}>
                   Polityka prywatności
                 </Link>
+              </li>
+              <li>
+                <CookieSettingsButton className={linkClass} />
               </li>
             </ul>
           </div>

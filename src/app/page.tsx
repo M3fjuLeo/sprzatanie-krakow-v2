@@ -9,7 +9,7 @@ import Trusted from "../components/home/Trusted";
 import CallToAction from "../components/home/CallToAction";
 
 export const metadata: Metadata = {
-  title: "Sprzątanie Biur, Szkół i Pranie Dywanów Kraków | Firma Błysk ✨",
+  title: "Sprzątanie Biur i Pranie Dywanów Kraków | Firma Błysk",
   description:
     "Specjalistyczna firma sprzątająca Błysk. Obsługa firm, szkół i obiektów sportowych (tartan, poliuretan). Profesjonalne pranie tapicerki i dywanów. Sprawdź ofertę!",
   keywords:

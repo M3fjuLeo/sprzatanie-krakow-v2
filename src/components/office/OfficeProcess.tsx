@@ -97,17 +97,20 @@ const OfficeProcess = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <Link
-              href="/kontakt"
+              href="#wycena"
               className="cursor-pointer inline-flex items-center justify-center rounded-full bg-white px-8 py-4 text-sm font-medium text-zinc-900 shadow-sm hover:bg-zinc-50 transition-colors w-full sm:w-auto"
             >
-              Przejdź do kontaktu
+              Wyślij zapytanie
             </Link>
 
             <div className="flex flex-col sm:items-start items-center gap-2">
-              <div className="flex items-center gap-2 text-zinc-300">
+              <a
+                href="tel:+48664917532"
+                className="cursor-pointer flex items-center gap-2 text-zinc-300 hover:text-white transition-colors"
+              >
                 <Phone size={18} />
                 <span className="text-sm font-medium">+48 664 917 532</span>
-              </div>
+              </a>
               <div className="flex items-center gap-2 text-zinc-300">
                 <Mail size={18} />
                 <span className="text-sm font-medium">

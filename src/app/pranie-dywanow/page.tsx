@@ -9,7 +9,7 @@ import CarpetFAQ from "@/components/carpet/CarpetFAQ";
 import CarpetBenefits from "@/components/carpet/CarpetBenefits";
 
 export const metadata: Metadata = {
-  title: "Pranie Dywanów i Tapicerki Kraków | Błysk (Tauron Arena Partner)",
+  title: "Pranie Dywanów i Tapicerki Kraków | Firma Błysk",
   description:
     "Profesjonalne pranie ekstrakcyjne wykładzin biurowych i dywanów. Bezpieczna chemia, krótki czas schnięcia (3-6h). Obsługa firm i klientów indywidualnych.",
   alternates: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function CarpetCleaning() {
   const schema = getServiceSchema(
     "Pranie Dywanów i Tapicerki",
-    "Specjalistyczne pranie ekstrakcyjne dywanów, wykładzin biurowych i tapicerki meblowej w Krakowie. Partner Tauron Arena.",
+    "Specjalistyczne pranie ekstrakcyjne dywanów, wykładzin biurowych i tapicerki meblowej w Krakowie. Realizacje m.in. w Tauron Arena.",
     "/pranie-dywanow"
   );
 
